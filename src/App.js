@@ -37,7 +37,7 @@ const completeTodo = (id) => {
   return (
     <div className='todo-app'>
 
-    <TodoForm addTodo={addTodo} />
+    <TodoForm  completed={todos.length > 0}  addTodo={addTodo} />
     {todos.map((todo) =>{
     return (
 
