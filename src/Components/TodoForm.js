@@ -19,7 +19,7 @@ export default function TodoForm(props) {
                     onChange={(e) => setInput(e.target.value)}
                     className='todo-input'
 
-                placeholder={props.completed ? "ADD TODO": "ALL TALKS COMPLETED!, PLEASE ADD MORE"}
+                placeholder={props.completed ? "ADD TODO": "ALL TAKS COMPLETED!, PLEASE ADD MORE"}
                 />
                 <button type="submit" className='todo-button'>add todo</button>
 
